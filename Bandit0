@@ -1,0 +1,14 @@
+The password for level 1 was stored in a file called readme.
+so we first need to login to the game usin SSH.
+Host name : bandit.labs.overthewire.org port: 2220
+Username : bandit0 password : bandit0
+-----------------------------------------------------------------------------------------------------------------------
+aka38@MNAZ:~$  ssh bandit0@bandit.labs.overthewire.org -p 2220
+This is a OverTheWire game server. More information on http://www.overthewire.org/wargames
+bandit0@bandit.labs.overthewire.org's password: bandit0 (hidden)
+bandit0@bandit:~$ ls
+readme
+bandit0@bandit:~$ cat readme
+boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+_________________________________________________________________________________________________________________________
+
