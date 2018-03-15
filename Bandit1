@@ -1,0 +1,19 @@
+Inside bandit1  their is a file named "-" we need to cat it but cat treat dash as a special character.
+
+When cat sees the string - as a filename, it treats it as a synonym for stdin. 
+To get around this, you need to alter the string that cat sees in such a way that it still refers to a file called -. 
+The usual way of doing this is to prefix the filename with a path - ./-, or /home/Tim/-.
+This technique is also used to get around similar issues where command line options clash with filenames, 
+so a file referred to as ./-e does not appear as the -e command line option to a program, for example.
+
+----------------------------------------------------------------------------------------
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+This is a OverTheWire game server. More information on http://www.overthewire.org/wargames
+bandit1@bandit.labs.overthewire.org's password: boJ9jbbUNNfktd78OOpsqOltutMc3MY1 ( obtained from bandit0)
+
+bandit1@bandit:~$ ls
+-
+bandit1@bandit:~$ cat ./-
+CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+bandit1@bandit:~$
+_______________________________________________________________________________________________________________
